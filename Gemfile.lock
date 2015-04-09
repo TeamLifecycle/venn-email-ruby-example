@@ -1,0 +1,37 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    domain_name (0.5.23)
+      unf (>= 0.0.5, < 1.0.0)
+    excon (0.45.1)
+    http-cookie (1.0.2)
+      domain_name (~> 0.5)
+    json (1.8.2)
+    mandrill-api (1.0.53)
+      excon (>= 0.16.0, < 1.0)
+      json (>= 1.7.7, < 2.0)
+    mime-types (2.4.3)
+    multi_json (1.11.0)
+    netrc (0.10.3)
+    rest-client (1.8.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 3.0)
+      netrc (~> 0.7)
+    sendgrid-ruby (0.0.3)
+      rest-client
+      smtpapi
+    smtpapi (0.1.0)
+    unf (0.1.4)
+      unf_ext
+    unf_ext (0.0.6)
+    venn-email (0.1.1)
+      mandrill-api
+      multi_json
+      rest-client
+      sendgrid-ruby
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  venn-email
