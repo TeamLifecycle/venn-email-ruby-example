@@ -8,5 +8,5 @@ gem install 'venn-ruby'
 
 ##### 3. run example
 ```
-ruby index.js
+ruby index.rb
 ```
