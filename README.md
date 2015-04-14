@@ -1,12 +1,15 @@
 # Venn Email Example (Ruby)
-##### 1. install dependencies
+
+##### 1. Install dependencies
+
 ```
-gem install 'venn-ruby'
+gem install 'venn-email'
 ```
 
-##### 2. input venn api key and to: email address in index.rb
+##### 2. Input venn api key and to: email address in index.rb
 
-##### 3. run example
+##### 3. Run example
+
 ```
 ruby index.rb
 ```
